@@ -7,6 +7,8 @@ public class FinalZona : MonoBehaviour
     [SerializeField] private Color _baseColor, _greenColor, _yellowColor, _redColor, _orangeColor, _purpleColor;
     [SerializeField] private SpriteRenderer _renderer;
 
+    
+
     public void Init(int color)
     {
         if (color == 0)

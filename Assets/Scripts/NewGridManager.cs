@@ -135,7 +135,7 @@ public class NewGridManager : MonoBehaviour
                     color = 3;
                 }
                 Debug.Log(color);
-                auxZona.CambiaColor(color);
+                // auxZona.CambiaColor(color);
             }
         }
 
