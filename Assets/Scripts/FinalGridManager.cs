@@ -321,18 +321,18 @@ public class FinalGridManager : MonoBehaviour
             new double[]  { 717398797, 717660922 },
             new double[]  { 717660922, 717923046 },
             new double[]  { 717923046, 718185171 },
-            new double[]  { 718185171, 718447296 },
+            new double[]  { 718185171, 718447296 }, 
             new double[]  { 718447296, 718709421 },
             new double[]  { 718709421, 718971545 },
             new double[]  { 718971545, 719233670 },
             new double[]  { 719233670, 719495795 },
-            new double[]  { 719495795, 719757920 },
-            new double[]  { 719757920, 720020045 },
-            new double[]  { 720020045, 720282169 },
-            new double[]  { 720282169, 720544294 },
-            new double[]  { 720544294, 720806419 },
-            new double[]  { 720806419, 721068544 },
-            new double[]  { 721068544, 721330668 },
+            new double[]  { 719495795, 719757920 }, // Cuarto spot
+            new double[]  { 719757920, 720020045 }, // Tercer spot
+            new double[]  { 720020045, 720282169 }, // Segundo spot
+            new double[]  { 720282169, 720544294 }, // Aquí empezamos 
+            new double[]  { 720544294, 720806419 }, // Segundo spot
+            new double[]  { 720806419, 721068544 }, // Tercer spot
+            new double[]  { 721068544, 721330668 }, // Cuarto spot
             new double[]  { 721330668, 721592793 },
             new double[]  { 721592793, 721854918 },
             new double[]  { 721854918, 722117043 },
@@ -493,14 +493,14 @@ public class FinalGridManager : MonoBehaviour
             new double[]  { -303881177, -304163620 },
             new double[]  { -303598734, -303881177 },
             new double[]  { -303316291, -303598734 },
-            new double[]  { -303033848, -303316291 },
-            new double[]  { -302751405, -303033848 },
-            new double[]  { -302468962, -302751405 },
-            new double[]  { -302186519, -302468962 },
-             new double[]  { -301904076, -302186519 },
-             new double[]  { -301621633, -301904076 },
-             new double[]  { -301339190, -301621633 },
-             new double[]  { -301056747, -301339190 },
+            new double[]  { -303033848, -303316291 }, // Cuarto spot
+            new double[]  { -302751405, -303033848 }, // Tercer spot
+            new double[]  { -302468962, -302751405 }, // Segunda spot
+            new double[]  { -302186519, -302468962 }, // Aquí empezamos primera spot
+             new double[]  { -301904076, -302186519 }, // Segunda spot
+             new double[]  { -301621633, -301904076 }, // Tercera spot
+             new double[]  { -301339190, -301621633 }, // Cuarto spot
+             new double[]  { -301056747, -301339190 }, // Quinto spot
              new double[]  { -300774304, -301056747 },
              new double[]  { -300491861, -300774304 },
              new double[]  { -300209418, -300491861 },
