@@ -238,7 +238,9 @@ public class FinalGridManager : MonoBehaviour
                     color = 5;
                 }
                 // Debug.Log(color);
-                int[] aux = new int[] { color, calcPromedioGas };
+                int lecturas = matrizContador[x][y];
+
+                int[] aux = new int[] { color, calcPromedioGas, lecturas };
                 auxZona.CambiaColor(aux);
             }
         }

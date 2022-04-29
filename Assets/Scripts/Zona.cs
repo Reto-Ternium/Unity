@@ -10,8 +10,10 @@ public class Zona : MonoBehaviour
 
     public Text TextfieldZona;
     public Text TextfieldPromedio;
+    public Text TextFieldLecturas;
 
     public int zonaPromedioGas;
+    public int numeroLecturas;
 
     
 
@@ -34,7 +36,7 @@ public class Zona : MonoBehaviour
         int zonaActual = (2500 - (y + 1) * 50) + (x + 1);
         TextfieldZona.text = $"Zona: {zonaActual}";
         TextfieldPromedio.text = $"Promedio: {zonaPromedioGas}";
-        
+        TextFieldLecturas.text = $"# Lecturas: {numeroLecturas}";    
     }
 
     public void Init(int color)
@@ -68,6 +70,9 @@ public class Zona : MonoBehaviour
     public void CambiaColor(int[] colorCalc)
     {
         zonaPromedioGas = colorCalc[1];
+        numeroLecturas = colorCalc[2];
+
+
 
         if (colorCalc[0] == 0)
         {
@@ -115,7 +120,7 @@ public class Zona : MonoBehaviour
             (x == 11 && ((y <= 49 && y >= 40) || (y <= 2 && y >= 0))) ||
             (x == 12 && ((y <= 49 && y >= 41) || (y <= 2 && y >= 0))) ||
             (x == 13 && ((y <= 49 && y >= 42) || (y <= 1 && y >= 0))) ||
-            (x == 14 && ((y <= 49 && y >= 41) || (y <= 1 && y >= 0))) ||
+            (x == 14 && ((y <= 49 && y >= 43) || (y <= 1 && y >= 0))) ||
             (x == 15 && ((y <= 49 && y >= 44) || (y <= 0 && y >= 0))) ||
             (x == 16 && ((y <= 49 && y >= 45) || (y <= 0 && y >= 0))) ||
             (x == 17 && ((y <= 49 && y >= 46) || (y <= 0 && y >= 0))) ||
